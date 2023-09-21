@@ -133,8 +133,6 @@ def print_financial_analysis (tuple_dataset):
     print("Greatest Increase in Profits: ", highest_change[0], " ( $", highest_change[1], ")", end='\n')
     print("Greatest Decrease in Profits: ", lowest_change[0], " ( $", lowest_change[1], ")", end='\n')
     print("-------------------------------------------------------", end='\n')
-    print("Module 3 Challenge (Python) - Wassim Deen", end='\n')
-    print("-------------------------------------------------------", end='\n')
 
 
     #Use Open() module to create a new text file and store in the analysis sub-folder within 'PyBank' main folder
@@ -148,8 +146,6 @@ def print_financial_analysis (tuple_dataset):
                       "Average Change: $" + str(round(average_change,2)) + "\n" +
                       "Greatest Increase in Profits: " + highest_change[0] + " ( $" + str(highest_change[1]) + " )" + "\n" +
                       "Greatest Decrease in Profits: " + lowest_change[0] + " ( $" + str(lowest_change[1]) + " )" + "\n" +
-                      "------------------------------------------------------- \n" +
-                      "Module 3 Challenge (Python) - Wassim Deen \n" +
                       "------------------------------------------------------- \n"
         )
 
@@ -157,7 +153,7 @@ def print_financial_analysis (tuple_dataset):
     txtfile.close()
 
     #Inform user the text file is created and stored
-    print("\n******Saved to Text File (analysis/financial_analysis.txt)******")
+    print("\n******Results Saved to Text File (analysis/financial_analysis.txt)******")
 
 
 # Where the code starts after importing Modules...

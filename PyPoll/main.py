@@ -109,8 +109,6 @@ def print_election_results(tuple_dataset):
     print(f"-------------------------------------------------------\n")
     print(f"Winner: {winner_candidate}\n")
     print(f"-------------------------------------------------------")
-    print(f"Module 3 Challenge (Python) - Wassim Deen")
-    print(f"-------------------------------------------------------")
 
 
     #Use Open() module to create a new text file and store in the analysis sub-folder within 'PyPoll' main folder
@@ -129,15 +127,13 @@ def print_election_results(tuple_dataset):
         #Write Remaining Results to text file 
         txtfile.write("------------------------------------------------------- \n" + "\n" +
                       "Winner: " + str(winner_candidate) + "\n" + "\n"
-                      "------------------------------------------------------- \n" +
-                      "Module 3 Challenge (Python) - Wassim Deen \n" +
-                      "-------------------------------------------------------")
+                      "------------------------------------------------------- \n")
     
     #After analysis results are written, close the file
     txtfile.close()
 
     #Inform user the text file is created and stored   
-    print("\n******Saved to Text File (analysis/election_results.txt)******")
+    print("\n******Results Saved to Text File (analysis/election_results.txt)******")
 
 
 # Where the code starts after importing Modules...

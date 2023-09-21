@@ -17,5 +17,3 @@ Raymon Anthony Doane: 3.139% (11606 Votes)
 Winner: Diana DeGette
 
 ------------------------------------------------------- 
-Module 3 Challenge (Python) - Wassim Deen 
--------------------------------------------------------
